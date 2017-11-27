@@ -1,8 +1,9 @@
-body{
-  background-color: #ffb075;
-  src: url("./Inter-UI-Regular.woff2") format("woff2"),
-       url("./Inter-UI-Regular.woff") format("woff");
+@font-face{
+  src: url("https://rsms.me/inter/inter-ui.css")
   font-family: "Inter UI", sans-serif;
+}
+body{
+	background-color: #ffb075;
 }
 
 .top:link{color: black;
