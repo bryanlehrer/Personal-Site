@@ -1,6 +1,7 @@
 body{
   background-color: #ffb075;
-  src: url('https://rsms.me/inter/inter-ui.css') format("truetype");
+  src: url("./Inter-UI-Regular.woff2") format("woff2"),
+       url("./Inter-UI-Regular.woff") format("woff");
   font-family: "Inter UI", sans-serif;
 }
 
