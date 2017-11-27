@@ -4,6 +4,7 @@
 }
 body{
 	background-color: #ffb075;
+	src: url(Inter-UI-Regular.woff), url(Inter-UI-Regular.woff2);
 	font-family: "Inter UI", sans-serif;
 }
 
