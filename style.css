@@ -1,8 +1,8 @@
 
 @font-face {
  font-family: "Inter UI", sans-serif;
- src: url("/Fonts_copy/Inter-UI-Regular.woff2") format("woff2"),
-        url("/Fonts_copy/Inter-UI-Regular.woff") format("woff");
+ src: url("./Fonts_copy/Inter-UI-Regular.woff2") format("woff2"),
+        url("./Fonts_copy/Inter-UI-Regular.woff") format("woff");
 }
 
 body{
