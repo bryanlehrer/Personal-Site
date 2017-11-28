@@ -5,7 +5,8 @@
         url("./Fonts copy/Inter-UI-Regular.woff") format("woff");
 }
 
-body{
+body{ 
+	font-family: "Inter UI", sans-serif;
 	background-color: #ffb075;
 }
 
