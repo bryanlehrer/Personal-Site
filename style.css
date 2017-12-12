@@ -2,7 +2,7 @@
 @font-face {
  font-family: "Inter UI", sans-serif;
  src: url("Fonts/Inter-UI-Regular.woff2") format('woff2'),
-        url("Fonts/Inter-UI-Regular.woff") format('woff');
+      url("Fonts/Inter-UI-Regular.woff") format('woff');
 }
 
 body{ 
@@ -10,10 +10,12 @@ body{
 	background-color: #ffb075;
 }
 
-.top:link{color: black;
+.top:link{
+  color: black;
   text-decoration: underline;
 }
-.top:visited{color: black;
+.top:visited{
+  color: black;
   text-decoration: underline;
 }
 
@@ -22,6 +24,7 @@ h1{
   text-align: left;
   margin: 30px 0 30px 30px;
 }
+
 h2{
 	font-size: 21px;
   max-width: 500px;
@@ -58,7 +61,7 @@ span:hover+img{
   animation: wiggle 1s;
 }
 
-@-webkit-keyframes wiggle {
+@-webkit-keyframes wiggle{
 	0% {-webkit-transform: rotate(10deg);}
   25% {-webkit-transform: rotate(-10deg);}
   50% {-webkit-transform: rotate(20deg);}
@@ -66,7 +69,7 @@ span:hover+img{
   100% {-webkit-transform: rotate(0deg);}
 }
 
-@-ms-keyframes wiggle {
+@-ms-keyframes wiggle{
   0% {-ms-transform: rotate(1deg);}
   25% {-ms-transform: rotate(-1deg);}
   50% {-ms-transform: rotate(1.5deg);}
@@ -74,21 +77,24 @@ span:hover+img{
   100% {-ms-transform: rotate(0deg);}
 }
 
-@keyframes wiggle {
+@keyframes wiggle{
   0% {transform: rotate(10deg);}
   25% {transform: rotate(-10deg);}
   50% {transform: rotate(20deg);}
   75% {transform: rotate(-5deg);}
   100% {transform: rotate(0deg);}
 }
+
 #icons{
   display: block;
   margin:  26px;
 }
+
 .icon{
-color: ;
 display: inline-block;
-font-size: 20px;}
+font-size: 20px;
+}
+
 .fa {
     font-size: 30px;
     width: 30px;
@@ -97,13 +103,14 @@ font-size: 20px;}
     border-radius: 100px;
   	color: black;
 }
-.fa:hover {
+
+.fa:hover{
   background-color: #ff4141;
   color: #000000;
   text-decoration: none;
 }
+
 .arena{
- 		color: ;
 		display: inline-block;
 		font-size: 20px;
     width: 30px;
@@ -113,6 +120,7 @@ font-size: 20px;}
   	color: black;
   	margin: 0 0 0 3px;
 }
+
 .arena:hover{
   background-color: #ff4141;
   color: #000000;
