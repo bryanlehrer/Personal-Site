@@ -1,0 +1,26 @@
+
+@font-face {
+ font-family: "Inter UI", sans-serif;
+ src: url("Fonts/Inter-UI-Regular.woff2") format('woff2'),
+      url("Fonts/Inter-UI-Regular.woff") format('woff');
+}
+
+body{ 
+	font-family: "Inter UI", sans-serif;
+	background-color: #ffb075;
+}
+
+.top:link{
+  color: black;
+  text-decoration: underline;
+}
+.top:visited{
+  color: black;
+  text-decoration: underline;
+}
+
+h1
+{
+float:left; 
+font-size: 20px;
+}
